@@ -1,0 +1,7 @@
+h1:hover {background-color: blue;}
+
+.deadlink:visited {color: crimson;}
+
+.linklist:visited {color: coral;}
+
+.activelink:active {background-color: darkgreen;}
