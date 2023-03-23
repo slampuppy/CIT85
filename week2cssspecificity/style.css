@@ -1,0 +1,77 @@
+div {
+    height: fit-content;
+    width: fit-content;
+    border-style: dotted;
+}
+
+p {
+    height: fit-content;
+    width: fit-content;
+    border-style: ridge;
+}
+
+h1 {
+    height: fit-content;
+    width: fit-content;
+    border-style: solid;
+}
+
+/*Change the color of the visted links*/
+
+:visited {
+    color: brown;
+}
+
+/*Change the color of the link while clickinhg it*/
+
+:active {
+    color: red;
+}
+
+/*Change background color of the link while hovering over it*/
+
+a:hover {
+    background-color: blue;
+}
+
+/*Changes colors of the even elements in within the siblings*/
+
+p:nth-child(even) {
+    color: cadetblue;
+}
+
+/*Changes the colors of the odd elements within the siblings*/
+
+p:nth-child(odd) {
+    color: coral;
+}
+
+/*Changes the color of the first letter of the text within the <p> element*/
+
+p::first-letter {
+    color: darkblue;
+}
+
+/*Changes the color of the first line of the text within the <p> element*/
+
+p::first-line {
+    color: darkgoldenrod;
+}
+
+/*Changes the color of the first letter of the text within the <li> element*/
+
+li::first-letter {
+    color: green;
+}
+
+/*Changes the color of the even lines of text within the <li> element*/
+
+li:nth-child(even) {
+    color: aqua;
+}
+
+/*Changes the color of the text with the <p> element that has no siblings*/
+
+p:only-child {
+    color: pink;
+}
