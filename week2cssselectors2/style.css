@@ -1,0 +1,13 @@
+p:first-of-type {color: blue;}
+
+p:last-of-type {background-color: olivedrab;}
+
+p:nth-child(odd) {color: red;}
+
+p:nth-child(even) {color: green}
+
+li:nth-child(n) {color: brown;}
+
+p:nth-child(2n+1) {font-size: smaller;}
+
+li:only-child {background-color: aqua;}
