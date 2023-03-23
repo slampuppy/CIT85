@@ -1,0 +1,7 @@
+div+p {font-size: xx-large;}
+
+div~p {color: brown;}
+
+div>p {font-size: x-small;}
+
+div p {background-color: cyan;}
