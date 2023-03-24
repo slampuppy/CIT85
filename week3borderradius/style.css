@@ -1,0 +1,4 @@
+body {background-color: black;}
+
+.lemon {width: 200px; height: 200px; background-color: yellow; top: 40%; border-top-left-radius: 50%; border-bottom-right-radius: 50%; border-top-right-radius: 20px; border-bottom-left-radius: 20px; margin: 25px; display: inline-block;}
+
