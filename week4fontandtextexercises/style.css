@@ -1,0 +1,34 @@
+.article {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.article2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 2em;
+}
+
+.article3 {
+    font-family: "Sofia", sans-serif
+}
+
+span {
+    letter-spacing: 3em;
+}
+
+h1 {
+    text-shadow: 2px 2px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+span {
+    text-decoration-line: line-through;
+}
