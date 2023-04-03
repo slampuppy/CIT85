@@ -1,0 +1,6 @@
+li:hover {background-color: blue;}
+
+li {display: inline-block; ;}
+
+a {text-decoration: none; padding: 5px; display: inline-block; border: 2px solid black; }
+
