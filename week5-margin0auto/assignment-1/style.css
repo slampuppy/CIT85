@@ -1,0 +1,30 @@
+div {
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10 px;
+    margin: 15px auto;
+    width: 100px;
+
+}
+
+.one {
+    background-color: red;
+}
+
+.two {
+    background-color: blue;
+}
+
+.three {
+    background-color: green;
+}
+
+.four {
+    background-color: yellow;
+}
+
+* {
+    border: 1px dashed blue;
+    margin: 100px;
+
+}
