@@ -1,0 +1,10 @@
+div {
+    width: 400px;
+    height: 100px;
+    border: 1px solid black;
+}
+body {display: flex; flex-flow: row wrap;}
+
+.flex1 {flex-grow: 1;}
+
+.flex2 {flex-grow: 2;}
