@@ -1,0 +1,50 @@
+html,
+body,
+div {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    width: 800px;
+    border: 5px solid red;
+    margin: 0 auto;
+}
+
+.flex1,
+.flex2,
+.flex3,
+.flex4,
+.flex5 {
+    width: 50%;
+    min-height: 150px;
+}
+
+.flex1 {
+    background-color: darkblue;
+    width: 60%;
+}
+
+.flex2 {
+    background-color: blue;
+    width: 40%;
+}
+
+.flex3 {
+    background-color: lightblue;
+}
+
+.flex4 {
+    background-color: paleturquoise;
+}
+
+.flex5 {
+    background-color: gray;
+}
+
+.flex3,
+.flex4,
+.flex5 {
+    width: 33.33%;
+}
