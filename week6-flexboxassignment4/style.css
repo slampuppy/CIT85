@@ -17,7 +17,6 @@ body {
 .flex3,
 .flex4,
 .flex5 {
-    width: 50%;
     min-height: 150px;
 }
 

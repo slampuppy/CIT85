@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-flow: row wrap;
+    width: 800px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.flex1,
+.flex2,
+.flex3,
+.flex4 {
+    width: 100%;
+    min-height: 150px;
+}
+
+.flex1 {
+    background-color: darkblue;
+    color: white;
+}
+
+.flex2 {
+    background-color: blue;
+    color: white;
+}
+
+.flex3 {
+    background-color: aqua;
+    color: white;
+}
+
+.flex4 {
+    border: 2px solid red;
+    box-sizing: border-box;
+}
+
+.flex1 {
+    width: 25%;
+}
+
+.flex4 {
+    width: 75%;
+}
