@@ -1,0 +1,37 @@
+div {
+    width: 150px;
+    height: 100px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+}
+
+.flex1 {
+    background-color: orangered;
+    width: 100%;
+}
+
+.flex2 {
+    background-color: lightskyblue;
+    width: 60%;
+}
+
+.flex3 {
+    background-color: lightgreen;
+    flex-grow: 1;
+}
+
+.flex4 {
+    background-color: yellow;
+    width: 50%;
+}
+
+.flex5 {
+    background-color: blueviolet;
+    flex-grow: 1;
+}
