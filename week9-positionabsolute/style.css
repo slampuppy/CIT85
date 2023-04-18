@@ -1,0 +1,15 @@
+#dog, #cat {
+    height: 150px;
+    width: 150px;
+    background-color: red;
+}
+
+#dog {
+    position: relative;
+    left: 300px;
+}
+#cat {
+    position: absolute;
+    bottom: 100px;
+    left: 300px;
+}
