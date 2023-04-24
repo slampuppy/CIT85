@@ -1,0 +1,41 @@
+html, body, header, div, footer {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    height: 200px;
+    border: 10px solid blue;
+}
+
+header {
+    background-color: gold;
+}
+
+footer {
+    background-color: purple;
+    clear: left;
+    border: 10px solid red;
+}
+
+div {
+    height: 250px;
+    border: 5px solid
+}
+
+#left {
+    width: 30%;
+    float: left;
+    background-color: skyblue;
+}
+
+#right {
+    width: 70%;
+    float: left;
+    background-color: rgb(6, 189, 6);
+}
+
+#shape { border: 5px solid darkgreen;
+}
