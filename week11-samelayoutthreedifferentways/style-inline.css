@@ -1,0 +1,46 @@
+html,
+body,
+header,
+div,
+footer {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 0;
+}
+
+header {
+    height: 200px;
+    border: 10px solid blue;
+    background-color: gold;
+
+}
+
+div {
+    height: 250px;
+    border: 10px solid black;
+    display: inline-block;
+    border-block-start-style: ridge;
+    border-inline-start-style: ridge;
+    border-inline-end-style: groove;
+    border-block-end-style: groove;
+    border-block-color: green;
+    border-inline-color: green;
+}
+
+#left {
+    width: 30%;
+    background-color: skyblue;
+}
+
+#right {
+    width: 70%;
+    background-color: green;
+}
+
+footer {
+    height: 200px;
+    border: 10px solid red;
+    background-color: blueviolet;
+}
