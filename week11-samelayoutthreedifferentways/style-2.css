@@ -1,11 +1,17 @@
-html, body, header, div, footer {
+html,
+body,
+header,
+div,
+footer {
     padding: 0;
     border: 0;
     margin: 0;
     box-sizing: border-box;
+    font-size: 0;
 }
 
-header, footer {
+header,
+footer {
     height: 200px;
     border: 10px solid blue;
 }
@@ -22,7 +28,8 @@ footer {
 
 div {
     height: 250px;
-    border: 5px solid
+    border: 10px solid black;
+    outline: 5px solid green;
 }
 
 #left {
@@ -35,7 +42,4 @@ div {
     width: 70%;
     float: left;
     background-color: rgb(6, 189, 6);
-}
-
-#shape { border: 5px solid darkgreen;
 }
